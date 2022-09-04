@@ -33,7 +33,7 @@
                 <td>10</td>
                 <td><button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"
                         data-toggle="modal" data-target="mymodal" type="button">Edit</button>
-                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModaldelete"
                         type="button">Delete</button>
                 </td>
             </tr>
@@ -44,7 +44,7 @@
                 <td>58</td>
                 <td><button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"
                         type="button">Edit</button>
-                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModaldelete"
                         type="button">Delete</button>
                 </td>
 
@@ -56,7 +56,7 @@
                 <td>45</td>
                 <td><button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"
                         type="button">Edit</button>
-                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModaldelete"
                         type="button">Delete</button>
                 </td>
             </tr>
@@ -67,7 +67,7 @@
                 <td>55</td>
                 <td><button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"
                         type="button">Edit</button>
-                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModaldelete"
                         type="button">Delete</button>
                 </td>
             </tr>
@@ -78,7 +78,7 @@
                 <td>59</td>
                 <td><button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"
                         type="button">Edit</button>
-                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModaldelete"
                         type="button">Delete</button>
                 </td>
             </tr>
@@ -89,7 +89,7 @@
                 <td>97</td>
                 <td><button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"
                         type="button">Edit</button>
-                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModaldelete"
                         type="button">Delete</button>
                 </td>
             </tr>
@@ -100,7 +100,7 @@
                 <td>74</td>
                 <td><button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"
                         type="button">Edit</button>
-                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModaldelete"
                         type="button">Delete</button>
                 </td>
             </tr>
@@ -111,26 +111,45 @@
                 <td>33</td>
                 <td><button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"
                         type="button">Edit</button>
-                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModaldelete"
                         type="button">Delete</button>
                 </td>
             </tr>
         </tbody>
 
-        <!-- Modal -->
+        <!--edit Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Table</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        ...
+                        <p>aj</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--delete Modal -->
+        <div class="modal fade" id="exampleModaldelete" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Table</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Are You Sure Delete This Item</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger">Delete</button>
                     </div>
                 </div>
             </div>
